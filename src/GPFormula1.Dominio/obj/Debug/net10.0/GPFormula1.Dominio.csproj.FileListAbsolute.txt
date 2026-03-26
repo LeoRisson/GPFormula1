@@ -1,0 +1,11 @@
+C:\Dev\GPFormula1\src\GPFormula1.Dominio\bin\Debug\net10.0\GPFormula1.Dominio.deps.json
+C:\Dev\GPFormula1\src\GPFormula1.Dominio\bin\Debug\net10.0\GPFormula1.Dominio.dll
+C:\Dev\GPFormula1\src\GPFormula1.Dominio\bin\Debug\net10.0\GPFormula1.Dominio.pdb
+C:\Dev\GPFormula1\src\GPFormula1.Dominio\obj\Debug\net10.0\GPFormula1.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\GPFormula1\src\GPFormula1.Dominio\obj\Debug\net10.0\GPFormula1.Dominio.AssemblyInfoInputs.cache
+C:\Dev\GPFormula1\src\GPFormula1.Dominio\obj\Debug\net10.0\GPFormula1.Dominio.AssemblyInfo.cs
+C:\Dev\GPFormula1\src\GPFormula1.Dominio\obj\Debug\net10.0\GPFormula1.Dominio.csproj.CoreCompileInputs.cache
+C:\Dev\GPFormula1\src\GPFormula1.Dominio\obj\Debug\net10.0\GPFormula1.Dominio.dll
+C:\Dev\GPFormula1\src\GPFormula1.Dominio\obj\Debug\net10.0\refint\GPFormula1.Dominio.dll
+C:\Dev\GPFormula1\src\GPFormula1.Dominio\obj\Debug\net10.0\GPFormula1.Dominio.pdb
+C:\Dev\GPFormula1\src\GPFormula1.Dominio\obj\Debug\net10.0\ref\GPFormula1.Dominio.dll

@@ -1,0 +1,17 @@
+C:\Dev\GPFormula1\src\GPFormula1.Infra\bin\Debug\net10.0\GPFormula1.Infra.deps.json
+C:\Dev\GPFormula1\src\GPFormula1.Infra\bin\Debug\net10.0\GPFormula1.Infra.runtimeconfig.json
+C:\Dev\GPFormula1\src\GPFormula1.Infra\bin\Debug\net10.0\GPFormula1.Infra.dll
+C:\Dev\GPFormula1\src\GPFormula1.Infra\bin\Debug\net10.0\GPFormula1.Infra.pdb
+C:\Dev\GPFormula1\src\GPFormula1.Infra\bin\Debug\net10.0\GPFormula1.Dominio.dll
+C:\Dev\GPFormula1\src\GPFormula1.Infra\bin\Debug\net10.0\GPFormula1.Dominio.pdb
+C:\Dev\GPFormula1\src\GPFormula1.Infra\obj\Debug\net10.0\GPFormula1.Infra.csproj.AssemblyReference.cache
+C:\Dev\GPFormula1\src\GPFormula1.Infra\obj\Debug\net10.0\GPFormula1.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\GPFormula1\src\GPFormula1.Infra\obj\Debug\net10.0\GPFormula1.Infra.AssemblyInfoInputs.cache
+C:\Dev\GPFormula1\src\GPFormula1.Infra\obj\Debug\net10.0\GPFormula1.Infra.AssemblyInfo.cs
+C:\Dev\GPFormula1\src\GPFormula1.Infra\obj\Debug\net10.0\GPFormula1.Infra.csproj.CoreCompileInputs.cache
+C:\Dev\GPFormula1\src\GPFormula1.Infra\obj\Debug\net10.0\GPFormul.67969D18.Up2Date
+C:\Dev\GPFormula1\src\GPFormula1.Infra\obj\Debug\net10.0\GPFormula1.Infra.dll
+C:\Dev\GPFormula1\src\GPFormula1.Infra\obj\Debug\net10.0\refint\GPFormula1.Infra.dll
+C:\Dev\GPFormula1\src\GPFormula1.Infra\obj\Debug\net10.0\GPFormula1.Infra.pdb
+C:\Dev\GPFormula1\src\GPFormula1.Infra\obj\Debug\net10.0\GPFormula1.Infra.genruntimeconfig.cache
+C:\Dev\GPFormula1\src\GPFormula1.Infra\obj\Debug\net10.0\ref\GPFormula1.Infra.dll

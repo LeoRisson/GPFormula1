@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1a5uy5vT638=",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\GPFormula1\\src\\GPFormula1.Web\\GPFormula1.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leona\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.5\\microsoft.aspnetcore.app.internal.assets.10.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

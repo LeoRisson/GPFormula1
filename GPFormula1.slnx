@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/GPFormula1.Api/GPFormula1.Api.csproj" />
+    <Project Path="src/GPFormula1.AppHost/GPFormula1.AppHost.csproj" Id="4278fc42-6415-437c-98fd-fb3e9691a265" />
+    <Project Path="src/GPFormula1.Dominio/GPFormula1.Dominio.csproj" />
+    <Project Path="src/GPFormula1.Infra/GPFormula1.Infra.csproj" />
+    <Project Path="src/GPFormula1.Negocio/GPFormula1.Negocio.csproj" />
+    <Project Path="src/GPFormula1.Web/GPFormula1.Web.csproj" />
+  </Folder>
+</Solution>

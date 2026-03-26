@@ -1,0 +1,16 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.1.0">
+
+  <ItemGroup>
+    <ProjectReference Include="..\GPFormula1.Api\GPFormula1.Api.csproj" />
+    <ProjectReference Include="..\GPFormula1.Web\GPFormula1.Web.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>0de81396-191e-4cbc-a034-6959d36de8a8</UserSecretsId>
+  </PropertyGroup>
+
+</Project>

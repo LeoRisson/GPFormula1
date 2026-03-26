@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "GPFormula1.Negocio/1.0.0": {
+        "dependencies": {
+          "GPFormula1.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "GPFormula1.Negocio.dll": {}
+        }
+      },
+      "GPFormula1.Dominio/1.0.0": {
+        "runtime": {
+          "GPFormula1.Dominio.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GPFormula1.Negocio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GPFormula1.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
