@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Itens de Solução/">
+    <File Path="README.md" />
+  </Folder>
   <Folder Name="/src/">
     <Project Path="src/GPFormula1.Api/GPFormula1.Api.csproj" />
     <Project Path="src/GPFormula1.AppHost/GPFormula1.AppHost.csproj" Id="4278fc42-6415-437c-98fd-fb3e9691a265" />

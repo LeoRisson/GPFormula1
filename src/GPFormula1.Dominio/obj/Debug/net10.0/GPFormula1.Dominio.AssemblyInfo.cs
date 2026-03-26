@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GPFormula1.Dominio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61b4321e11dc1082118ce940d82585d499572846")]
 [assembly: System.Reflection.AssemblyProductAttribute("GPFormula1.Dominio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GPFormula1.Dominio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
