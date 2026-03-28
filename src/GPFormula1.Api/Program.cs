@@ -1,6 +1,8 @@
 using GPFormula1.Dominio.Interfaces;
+using GPFormula1.Dominio.Servicos;
 using GPFormula1.Infra.Data;
 using GPFormula1.Infra.Repositorios;
+using GPFormula1.Infra.Servicos;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
@@ -39,24 +41,28 @@ namespace GPFormula1.Api
             return app;
         }
 
-        private static void ConfigurarServicos(IServiceCollection services)
+        private static void ConfigurarServicos(IServiceCollection Pcol_Services)
         {
             // DbContext
-            services.AddDbContext<F1DbContext>(options =>
+            Pcol_Services.AddDbContext<F1DbContext>(options =>
                 options.UseSqlServer(Configuration!.GetConnectionString("DefaultConnection")));
 
             // Repositórios
-            services.AddScoped<IPilotoRepositorio, PilotoRepositorio>();
-            services.AddScoped<IEquipeRepositorio, EquipeRepositorio>();
-            services.AddScoped<ITemporadaRepositorio, TemporadaRepositorio>();
-            services.AddScoped<IGrandePremioRepositorio, GrandePremioRepositorio>();
-            services.AddScoped<IResultadoCorridaRepositorio, ResultadoCorridaRepositorio>();
+            Pcol_Services.AddScoped<IPilotoRepositorio, PilotoRepositorio>();
+            Pcol_Services.AddScoped<IEquipeRepositorio, EquipeRepositorio>();
+            Pcol_Services.AddScoped<ITemporadaRepositorio, TemporadaRepositorio>();
+            Pcol_Services.AddScoped<IGrandePremioRepositorio, GrandePremioRepositorio>();
+            Pcol_Services.AddScoped<IResultadoCorridaRepositorio, ResultadoCorridaRepositorio>();
+
+            //servicos
+            Pcol_Services.AddScoped<IPilotoService, PilotoService>();
+
             // Controllers
-            services.AddControllers();
+            Pcol_Services.AddControllers();
 
             // Swagger
-            services.AddEndpointsApiExplorer();
-            services.AddSwaggerGen(options =>
+            Pcol_Services.AddEndpointsApiExplorer();
+            Pcol_Services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc("v1", new OpenApiInfo
                 {
