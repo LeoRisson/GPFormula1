@@ -56,6 +56,10 @@ namespace GPFormula1.Api
 
             //servicos
             Pcol_Services.AddScoped<IPilotoService, PilotoService>();
+            Pcol_Services.AddScoped<IEquipeService, EquipeService>();
+            Pcol_Services.AddScoped<ITemporadaService, TemporadaService>();
+            Pcol_Services.AddScoped<IGrandePremioService, GrandePremioService>();
+            Pcol_Services.AddScoped<IResultadoCorridaService, ResultadoCorridaService>();
 
             // Controllers
             Pcol_Services.AddControllers();
