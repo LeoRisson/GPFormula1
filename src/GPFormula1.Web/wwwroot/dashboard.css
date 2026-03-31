@@ -1,0 +1,326 @@
+/* ===== Dashboard Styles - F1 Season Tracker ===== */
+
+.dashboard-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.dashboard-header {
+    margin-bottom: 12px;
+}
+
+.dashboard-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #111827;
+    margin: 0;
+}
+
+.dashboard-subtitle {
+    color: #6B7280;
+    margin-top: 4px;
+    font-size: 0.875rem;
+}
+
+/* Stats Grid */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+}
+
+.stat-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    border: 1px solid #E5E7EB;
+}
+
+.stat-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stat-label {
+    font-size: 0.875rem;
+    color: #6B7280;
+    margin: 0;
+}
+
+.stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111827;
+    margin-top: 4px;
+}
+
+.stat-icon {
+    padding: 12px;
+    border-radius: 8px;
+    color: white;
+}
+
+.stat-icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.bg-blue { background-color: #3B82F6; }
+.bg-red { background-color: #EF4444; }
+.bg-green { background-color: #10B981; }
+.bg-purple { background-color: #8B5CF6; }
+
+/* Content Grid */
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+
+@media (min-width: 1024px) {
+    .content-grid {
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+/* Upcoming Race Card */
+.upcoming-race-card {
+    background: linear-gradient(135deg, #DC2626 0%, #B91C1C 100%);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    color: white;
+}
+
+.upcoming-race-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    gap: 8px;
+}
+
+.upcoming-race-header h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.upcoming-race-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.race-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.race-date {
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 4px;
+    font-size: 0.875rem;
+}
+
+.race-info {
+    padding-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.race-label {
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+}
+
+.race-value {
+    font-weight: 500;
+    margin-top: 4px;
+    font-size: 0.9375rem;
+}
+
+/* Standings Card */
+.standings-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    border: 1px solid #E5E7EB;
+}
+
+.standings-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.standings-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.standings-title h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111827;
+    margin: 0;
+}
+
+.trophy-icon {
+    color: #FBBF24;
+}
+
+.standings-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.standing-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    background: #F9FAFB;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+}
+
+.standing-item:hover {
+    background: #F3F4F6;
+}
+
+.standing-driver {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+}
+
+.position-badge {
+    width: 32px;
+    height: 32px;
+    background: #DC2626;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+
+.driver-name {
+    font-weight: 600;
+    color: #111827;
+    margin: 0;
+    font-size: 0.9375rem;
+}
+
+.team-name {
+    font-size: 0.875rem;
+    color: #6B7280;
+    margin: 0;
+    margin-top: 2px;
+}
+
+.points-section {
+    text-align: right;
+}
+
+.points-value {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111827;
+    margin: 0;
+}
+
+.points-label {
+    font-size: 0.75rem;
+    color: #6B7280;
+    margin: 0;
+}
+
+/* Constructor Standings */
+.constructor-standings {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    border: 1px solid #E5E7EB;
+}
+
+.constructor-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.constructor-header h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111827;
+    margin: 0;
+}
+
+.constructor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+}
+
+.constructor-card {
+    background: #F9FAFB;
+    border-radius: 8px;
+    padding: 16px;
+    border-left: 4px solid #DC2626;
+    transition: box-shadow 0.2s;
+}
+
+.constructor-card:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.constructor-position {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.position-number {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #9CA3AF;
+}
+
+.constructor-name {
+    font-weight: 600;
+    color: #111827;
+    margin: 0 0 4px 0;
+    font-size: 0.9375rem;
+}
+
+.constructor-points {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111827;
+    margin: 0;
+}
+
+.constructor-label {
+    font-size: 0.75rem;
+    color: #6B7280;
+    margin: 0;
+}
